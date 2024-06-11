@@ -43,3 +43,17 @@ console.log(age == vasya); // age равно вася
 console.log(age > vasya); // age больше вася
 console.log(age >= vasya); // age больше или равно вася
 
+// Строковые литералы
+const name1 = 'иванов';
+const famely = 'иван';
+const result = `это результат слияния констант
+${name1}
+${famely}
+вроде должно получиться
+ок`
+console.log (result);
+
+// конвертация строки в число
+const ageString = `18`;
+console.log (Number(ageString)+5);
+
