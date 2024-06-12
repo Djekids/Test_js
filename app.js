@@ -32,7 +32,8 @@ age *= 2;
 //age /= 3;
 age ++; //увеличение на еденицу
 age --; // уменьшение на еденицу
-console.log(age);
+console.log(age + ` 10
+переход на новую строку`);
 
 // Операторы сравнения
 const vasya = 20;
@@ -55,5 +56,10 @@ console.log (result);
 
 // конвертация строки в число
 const ageString = `18`;
-console.log (Number(ageString)+5);
+const ageString_1 = 40;
+const Boolean_1 = -5;
+console.log (Number(ageString) + 5);
+console.log (String(ageString_1) + 20);
+console.log (Boolean(Boolean_1) +20);
+console.log (typeof (name1))
 
